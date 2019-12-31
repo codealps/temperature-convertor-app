@@ -8,7 +8,7 @@ const fahrenheit = document.querySelector('#f');
 // Event organise
 val.addEventListener('input',function(){
 //   console.log("hii");
-fahrenheit.innerHTML = val.value*(9/5)+32;
-kelvin.innerHTML = val.value+273.15;
+fahrenheit.innerHTML = parseInt(val.value)*(9/5)+32;
+kelvin.innerHTML = parseInt(val.value)+273.15;
   
 });
